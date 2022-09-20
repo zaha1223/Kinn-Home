@@ -1,0 +1,43 @@
+.designs {
+  &__item {
+    @include flex;
+    background-color: $antiquewhite;
+    padding: 64px 0 65px 32px;
+  }
+  &__info {
+    text-align: center;
+    padding: 62px 86px 0 86px;
+  }
+  &__item:nth-child(1) {
+    margin-bottom: 32px;
+  }
+  &__item:nth-child(2) > &__info {
+    margin-bottom: 485px;
+  }
+  &__item:nth-child(2) > &__img {
+    margin-right: 32px;
+  }
+  &__title {
+    @include roboto;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 39px;
+    color: $darkgreen;
+  }
+  &__line {
+    width: 40px;
+    height: 1px;
+    display: inline-block;
+    justify-content: center;
+    background-color: $darkgreen;
+    margin-top: 32px;
+  }
+  &__text {
+    @include jost;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: $darkgreen;
+    margin-top: 33px;
+  }
+}

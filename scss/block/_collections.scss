@@ -1,0 +1,42 @@
+.collections {
+  background-color: $antiquewhite;
+  padding: 63px 0 81px 9px;
+  height: auto;
+  &__title {
+    @include roboto;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: $darkgreen;
+  }
+  &__list {
+    @include flex;
+  }
+  &__item {
+    display: inline-block;
+    width: 440px;
+    margin-top: 80px;
+  }
+  &__img:not(:last-child) {
+    margin-right: 32px;
+  }
+  &__subtitle {
+    @include roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: $darkgreen;
+    margin-top: 15px;
+    margin-bottom: 7px;
+  }
+  &__cost {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 1.62px;
+    color: $darkgreen;
+  }
+}

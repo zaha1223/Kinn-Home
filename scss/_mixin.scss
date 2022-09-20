@@ -1,0 +1,20 @@
+@mixin text-style {
+  font-weight: 400;
+  font-size: 16px;
+}
+@mixin flex {
+  display: flex;
+  align-items: center;
+}
+@mixin roboto {
+  font-family: "Roboto", sans-serif;
+}
+@mixin jost {
+  font-family: "Jost", sans-serif;
+}
+@mixin btn {
+  display: inline-block;
+  padding: 16px 25px;
+  background-color: $darkgreen;
+  color: $antiquewhite;
+}

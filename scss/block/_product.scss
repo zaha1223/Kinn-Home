@@ -1,0 +1,40 @@
+.products {
+  width: 1194px;
+  margin: 0 auto;
+  margin-bottom: 90px;
+  &__text {
+    @include roboto;
+    font-size: 57px;
+    line-height: 81px;
+    text-align: center;
+    color: $darkgreen;
+  }
+  &__shops {
+    @include roboto;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 1.6px;
+    margin-top: 34px;
+  }
+  &__links {
+    color: $darkgreen;
+    border-bottom: 2px solid $darkgreen;
+    transition: all 0.4s ease;
+  }
+  &__links:hover {
+    background-color: $darkgreen;
+    color: $antiquewhite;
+    margin-right: 5px;
+  }
+  &__img {
+    transition: all 0.4s ease;
+  }
+  &__img:not(:last-child) {
+    margin-right: 75px;
+  }
+  &__img:hover {
+    cursor: pointer;
+    padding-left: 5px;
+  }
+}

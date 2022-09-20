@@ -1,0 +1,33 @@
+.hero-info {
+  text-align: right;
+  background-image: url(../../imgs/hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 462px 64px 64px 0;
+  margin-bottom: 110px;
+  &__text {
+    @include roboto;
+    letter-spacing: 1.8px;
+    font-size: 18px;
+    line-height: 22px;
+    color: $darkgreen;
+  }
+  &__title {
+    @include roboto;
+    font-size: 45px;
+    line-height: 60px;
+    color: $darkgreen;
+    margin-top: 10px;
+    margin-bottom: 25px;
+  }
+  &__link {
+    @include text-style;
+    @include btn;
+    @include roboto;
+  }
+  &__link:hover {
+    background-color: $antiquewhite;
+    color: $darkgreen;
+    border-radius: 10px;
+  }
+}

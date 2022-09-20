@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"),
+    url("../fonts/roboto-v30-latin-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/jost-v14-latin-regular.woff2") format("woff2"),
+    url("../fonts/jost-v14-latin-regular.woff") format("woff");
+}

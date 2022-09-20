@@ -1,0 +1,48 @@
+.site-header {
+  padding: 56px 0;
+
+  &__content {
+    @include flex;
+    justify-content: space-between;
+  }
+}
+.navbar {
+  @include flex;
+  &__list {
+    @include flex;
+    padding-left: 25px;
+  }
+  &__link {
+    @include text-style;
+    @include roboto;
+    letter-spacing: 1.575px;
+    text-transform: uppercase;
+    color: $darkgreen;
+    position: relative;
+  }
+  &__link:hover {
+    border-bottom: 3px solid $darkgreen;
+  }
+  &__img {
+    position: absolute;
+    margin-left: 7px;
+    cursor: pointer;
+  }
+
+  &__logo-link {
+    margin-left: 134px;
+  }
+  &__item:not(:last-child) {
+    margin-right: 39px;
+  }
+}
+
+.icons {
+  @include flex;
+  &__item:not(:last-child) {
+    margin-right: 20px;
+  }
+  &__item:hover {
+    transform: rotate(+180deg);
+  }
+}
